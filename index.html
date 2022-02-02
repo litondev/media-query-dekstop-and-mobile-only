@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+<body>
+    <div class="container">
+        Dekstop / Mobile
+    </div>
+<style>
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+@media (min-width: 1025px) {
+    .container{
+        max-width: 1500px;
+        background-color: red;
+        height: 100%;        
+        margin: auto;
+        padding:0px;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 1024px) {
+    .container{
+        max-width: 1024px;
+        background-color: blue;
+        height: 100%;
+        padding: 0px;
+        margin: auto;
+    }
+}
+</style>
+</body>
+</html>
